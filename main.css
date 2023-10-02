@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+   
+    
+}
+
+header{
+    position: absolute;
+    border-radius: 0.3125rem;
+    background: rgba(231, 8, 8, 0.28);
+    backdrop-filter: blur(2px);
+    width: 95vw;
+    height:5.0625rem;
+    flex-shrink: 0;
+    margin: 0.65rem 0rem 2rem 3.5rem;
+    display: flex;
+
+    }
+
+.theme{
+    position: absolute;
+    display: flex;
+    width: 10rem;
+    height: 5rem;
+    margin-left: 140rem;
+    
+
+}
+
+
+
+.wallpaper{
+    background: url(./images/4.jpg) rgb(248, 245, 245) 50% / cover no-repeat;
+    width: 100%;
+    height: 70rem;
+    flex-shrink: 0;
+}
+.assinar h1{
+    margin: 1.5rem;
+}
+.assinar{
+
+    width: 35.625rem;
+    height: 44.875rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: rgba(2, 0, 0, 0.774);
+    backdrop-filter: blur(25px);
+    margin: 12.7rem 57.9rem 3.06rem -10.5rem;
+
+
+}
+
+
+
+.assinar hr{
+    background-color: rgba(247, 6, 18, 0.918);
+    margin-left: 100px;
+    width: 21.4375rem;
+    height: 0.2875rem;
+    
+ 
+}
+
+.assinar h1{
+    width: 12.9375rem;
+    height: 5.125rem;
+    flex-shrink: 0;
+    color: rgba(250, 248, 246, 0.945);;
+    font-family: Bebas Nue;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 50px;
+    white-space: nowrap;
+    
+
+}
+
+.info{
+    margin: 0 2rem;
+    font-size: 1.3rem;
+    font-family: Bebas Nue;
+    color: #ffffffaf;
+}
+
+.send{
+    margin: 2.5rem 1.5rem 0 1.5rem;
+    width: 80%;
+    height: 3.5rem;
+    border-radius: 1.0rem;
+    
+    font-size: 1rem;
+    text-align: center;
+}
+
+.two{
+    margin: 3.0rem;
+}
+
+
+
+.submit{
+    background-color: #e608089c;
+    margin: 0.5rem 2.5rem 4.0rem 2.5rem;
+    padding-right: 3rem;
+    width: 80%;
+    height: 4.5rem;
+    border-radius: 1.0rem;
+    padding-left: 1.5rem;
+    font-size: 2.0rem;
+    color: #ffffffaf;
+   
+    
+    
+}
+
+.submit:focus{
+    cursor: pointer;
+    transition: 1.0s;
+    
+}
+
+.submit:hover{
+    background: url(./images/makima2.jpg) 100% no-repeat;
+    transition: 10s ;
+    color: rgb(253, 251, 251);
+}
+
+article{
+    display: flex;
+}
+
+
+.backgroud{
+    background-color: rgba(102, 3, 3, 0.623);
+    width: 100%;
+    height: 75rem;
+}
+
+.container{
+    background-color: aquamarine;
+    width: 80vw;
+    height: 20rem;
+    margin: 5rem 10rem;
+    display: flex;
+    
+}
+
+.imgr{
+    position: absolute;
+    
+    margin-bottom: 95px;
+    justify-content: end;
+    align-items: end;
+    max-width: 100%;
+  
+   
+  
+   
+
+    
+}
+
+.one,p,h1{
+   
+    font-size: 1.2rem;
+    line-height: 1.5;
+    
+
+
+
+
+
+
+
+
+}
+
+
+/* Responsividade 1 Parte - Header e Tela de Assinar */
+
+@media (max-width: 1600px){
+    header{
+        position: absolute;
+        border-radius: 0.3125rem;
+
+        backdrop-filter: blur(2px);
+        width: 85vw;
+        height:5.0625rem;
+        flex-shrink: 0;
+        margin: 0.65rem 3.56rem 2rem 3.5rem;
+        display: flex;
+    }
+
+    .theme2{
+        position: relative;
+        left: 80rem;
+        width: 10vw;
+        height: 6rem;
+    }
+
+
+
+}
+
+@media (max-width: 992px){
+    header{
+        position: absolute;
+        border-radius: 0.3125rem;
+
+        backdrop-filter: blur(2px);
+        width: 85vw;
+        height:5.0625rem;
+        flex-shrink: 0;
+        margin: 0.65rem 3.56rem 2rem 3.5rem;
+        display: flex;
+    }
+
+    .assinar{
+        text-align: center;
+        width: 30rem;
+        height: 45rem;
+        flex-shrink: 0;
+        border-radius: 1.5rem ;
+        background: rgba(2, 0, 0, 0.74);
+        backdrop-filter: blur(25px);
+        
+        
+        
+    
+    
+    }
+
+    .assinar > h1{
+        font-size: 3.0rem;
+        text-align: justify;
+
+    }
+
+    
+
+
+}
+
+
